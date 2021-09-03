@@ -42,6 +42,7 @@ header img {
 
 .grid-container {
   display: grid;
+  width: 100vw;
   height: 250vh;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: cornflowerblue;
@@ -59,10 +60,6 @@ header img {
   /* background-image: url(./img/painel.jpg); */
 }
 
-.item2 {
-  background-color: white;
-}
-
 .item3 {
   background-color: rgb(155, 248, 155);
 }
@@ -71,12 +68,49 @@ header img {
   background-color: white;
 }
 
+/* Main - Nossos Produtos/Servicos */
+
+.item2 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.icons > img {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.icons > h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ///////////////////////ESTILO FOOTER ///////////////////// */
 
 footer {
   display: flex;
   height: 80px;
-  justify-content: space-between;
+  width: 100vw;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   background-color: rgb(155, 248, 155);
@@ -85,7 +119,7 @@ footer {
 footer > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   padding-right: 12px;
 }
 
@@ -100,7 +134,6 @@ a > img {
   height: 80px;
   box-sizing: border-box;
   padding: 10px 10px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
