@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.grid-container{
+display:grid;
+height:150vH;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+background-color: cornflowerblue;
+border: 1px solid black;
+}
+
+
+.item1 {
+background-color: crimson;
+}
+
+.item2 {
+background-color: blueviolet;
+
+    }
+
+.item3 {
+background-color: brown;
+}
+
+.item4 {
+    background-color: chartreuse;
+    } 
