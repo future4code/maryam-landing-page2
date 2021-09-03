@@ -40,6 +40,7 @@ header img {
 
 /* ///////////////////////ESTILO MAIN ///////////////////// */
 
+/* ///////////////////div1- QUEMSOMOS/////////////// */
 .grid-container {
   display: grid;
   height: 250vh;
@@ -54,27 +55,28 @@ header img {
 }
 
 #imagem-div1{
-  width: 35vw;
-  margin-left: 6vh;
+  width: 30vw;
+  margin-left: 22vh;
   margin-top: 6vh;
+  margin-bottom: 3vH;
  
 }
 
 #imagem2-div1{
-  width: 50vw;
-  height: 48vh;
-  margin-left: 5vh;
+  width: 40vw;
+  height: 64vh;
+  margin-left: 15vh;
   margin-top: 6vh;
+  margin-bottom: 3vH;
 }
-
-
 
 #p-div1{
-  font-size: larger;
-  color:white
+  margin-left: 60vw;
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* margin-bottom: 50vw; */
+  /* z-index:1 */
 }
-
-
 
 .item2 {
   background-color: white;
@@ -83,10 +85,21 @@ header img {
 .item3 {
   background-color: rgb(155, 248, 155);
 }
-
+/* ///////////////////DIV 4- NOSSSO TIME////////////////// */
 .item4 {
   background-color: white;
 }
+
+.icones{
+ /* display: flex; */
+ justify-content: center
+  /* align-items: center; */
+}
+
+
+
+
+
 
 /* ///////////////////////ESTILO FOOTER ///////////////////// */
 
