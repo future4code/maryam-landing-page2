@@ -125,6 +125,7 @@ header img {
   box-sizing: border-box;
   justify-content: space-evenly;
   height: 100%;
+  box-sizing: border-box;
 }
 
 .icone-time {
