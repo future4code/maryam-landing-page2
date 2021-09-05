@@ -246,3 +246,62 @@ a > img {
   border-radius: 700px;
   border-top-left-radius: 30px;
 }
+
+
+/* /////////////RESPONSIVIDADE/////////////// */
+
+@media screen and (max-device-width: 667px) {
+  .nav-header{
+    display: none;
+  }
+  
+ 
+  .item1 {
+    width: 100vw;
+
+  }
+
+  #imagem-div1{
+    width: 40vW;
+    height: 20vH;
+    margin-left: 0vW;
+  }
+
+
+  #p-div1{
+    background-color:white;
+    display: table-caption;
+    color: rgb(80, 67, 67);
+    font-size: large;
+    width: 50vw;
+    height: 40vH;
+    margin-top: 6vh;
+    margin-left: 0vw;
+
+  }
+  .item2{
+    width: 100vw;
+  }
+  .item3{
+    display: grid;
+    height: 350px;
+  }
+  .icone-time > h3 {
+   text-align: center;
+  }
+  footer{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .icone-logo > img {
+    width: 66px;
+    height: 66px;
+    padding: 8px;
+  }
+  footer > div {
+    padding-right: 0px;
+    margin-top: 16px;
+  }
+}
