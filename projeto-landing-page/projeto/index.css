@@ -62,8 +62,22 @@ header img {
   border: 1 px solid black;
   width: 100px;
   display: flex;
+  justify-content: space-around;
 }
-/* Nossos Produtos */
+
+#p-div1{
+  background-color:white;
+  display: table-caption;
+  color: rgb(80, 67, 67);
+  font-size: xx-large;
+  width: 30vw;
+  height: 64vH;
+  margin-top: 6vh;
+  margin-left: 5vw;
+  text-align: justify;
+}
+
+/* ////////////// NOSSOS PRODUTOS ////////////// */
 .produtos {
   display: flex;
   align-items: center;
