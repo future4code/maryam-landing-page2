@@ -11,9 +11,8 @@ DESKTOP:
 ![image](https://user-images.githubusercontent.com/88296045/132141712-917e4bdb-968a-4a04-9c82-ea3624f36232.png)
 
 IPHONE 6/7/8
+
 ![image](https://user-images.githubusercontent.com/88296045/132141733-21f6f030-8d9d-44ad-b36e-cb9c53e565d5.png)
 ![image](https://user-images.githubusercontent.com/88296045/132141739-56b4f584-b3b0-46d1-a38f-3f89b22eae71.png)
 ![image](https://user-images.githubusercontent.com/88296045/132141743-76a093c0-648b-4a52-9164-c63a83fb9d61.png)
-![image](https://user-images.githubusercontent.com/88296045/132141745-99e5d634-cae1-4eeb-a4f0-68860f10e22b.png)
-
 
